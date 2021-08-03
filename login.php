@@ -1,34 +1,29 @@
 <?php
 
-$dbhost = "localhost";
-$dbuser = "miusuario";
-$dbpass = "mipassword";
-$dbname = "test";
+ include('conexion.php');
 
-$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
-if (!$conn) 
+$usu 	= $_POST["txtusuario"];
+$pass 	= $_POST["txtpassword"];
+
+
+
+$queryusuario = mysqli_query($conn,"SELECT * FROM login WHERE usuario ='$usu' and pass = '$pass'");
+$nr 		= mysqli_num_rows($queryusuario);  
+	
+if ($nr == 1 )  
 {
-    die("No hay conexión: ".mysqli_connect_error());
-}
-
-$nombre = $_POST["txtusuario"];
-$pass = $_POST["txtpassword"];
-
-$query = mysqli_query($conn,"SELECT * FROM login WHERE usuario = '".$nombre."' and password = '".$pass."'");
-$nr = mysqli_num_rows($query);
-
-if($nr == 1)
-{
-    header("Location: inicio.html")
+    //header("Location: pagina.html")
     echo "Bienvenido:" .$nombre;
 }
 else if ($nr == 0) 
 {
-    header("Location: index.html");
+    //header("Location: login.html");
     //echo "No ingreso"; 
     echo "<script> alert('Error');window.location= 'login.html' </script>";
 }
-    
-
+else
+	{
+	echo "<script> alert('Usuario o contraseña incorrecto.');window.location= 'index.html' </script>";
+	}
 
 ?>

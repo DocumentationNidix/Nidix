@@ -19,12 +19,12 @@ $nr = mysqli_num_rows($query);
 
 if($nr == 1)
 {
-    //header("Location: pagina.html")
+    header("Location: inicio.html")
     echo "Bienvenido:" .$nombre;
 }
 else if ($nr == 0) 
 {
-    //header("Location: login.html");
+    header("Location: index.html");
     //echo "No ingreso"; 
     echo "<script> alert('Error');window.location= 'login.html' </script>";
 }

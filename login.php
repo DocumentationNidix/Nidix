@@ -12,14 +12,8 @@ $nr 		= mysqli_num_rows($queryusuario);
 	
 if ($nr == 1 )  
 {
-    //header("Location: pagina.html")
-    echo "Bienvenido:" .$nombre;
-}
-else if ($nr == 0) 
-{
-    //header("Location: login.html");
-    //echo "No ingreso"; 
-    echo "<script> alert('Error');window.location= 'login.html' </script>";
+    echo "<script> alert('Bienvenido.')</script>";
+    header("Location: Nidix/inicio.html");
 }
 else
 	{

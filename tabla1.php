@@ -1,9 +1,3 @@
-<?php 
-
-  $conexion=mysqli_connect('localhost','miusuario','mipassword','pruebas');
-
- ?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -22,6 +16,7 @@
 
 </head>
 <body>
+  <form method="post" action="conexion2.php">
 <header>
 	<nav class="ham_navbar navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <a class="navbar-brand ham-font-nav" href="#">Nidix Networks</a>
@@ -71,8 +66,6 @@
       <td><?php echo $mostrar['fecha'] ?></td>
       <td><?php echo $mostrar['titulo'] ?></td>
       <td><?php echo $mostrar['descripcion'] ?></td>
-      <td><?php echo $mostrar['ubicacion'] ?></td>
-      <td><?php echo $mostrar['telefono'] ?></td>
     </tr>
   <?php 
   }

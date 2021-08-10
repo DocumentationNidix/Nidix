@@ -1,3 +1,8 @@
+<?php 
+
+  $conexion=mysqli_connect('localhost','miusuario','mipassword','test');
+
+ ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -16,7 +21,6 @@
 
 </head>
 <body>
-  <form method="post" action="conexion2.php">
 <header>
 	<nav class="ham_navbar navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <a class="navbar-brand ham-font-nav" href="#">Nidix Networks</a>
@@ -32,7 +36,7 @@
       
     </ul>
     <form class="form-inline my-2 my-lg-0">
-                <button class="btn btn-warning my-2 my-sm-0" href="../index.html">Página Principal</button>
+                <button class="btn btn-warning my-2 my-sm-0" href="inicio.html">Página Principal</button>
 
                 <button class="btn btn-danger my-2 my-sm-0" href="../index.html">Cerrar Sesion</button>
     </form>

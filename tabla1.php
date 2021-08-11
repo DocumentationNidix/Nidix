@@ -46,9 +46,6 @@
 
 <section>
   <div class="container">
-    <div class="ham_cont_sec_10_link text-center">
-        <img style="width: 500px; height: 200px;" class="img-fluid" src="img/hamschool4.png">
-      </div>
     <div class="row ham_cont_sec_12">
       <table border="1" >
     <tr>

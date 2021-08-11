@@ -45,7 +45,8 @@
 </header>
 
 <section>
-  <div class="tablaproyectos">
+  <div class="container">
+      <table border="1" class="text-center">
     <tr>
       <td>Fecha</td>
       <td>Titulo</td>
@@ -67,6 +68,7 @@
   <?php 
   }
    ?>
+  </table>
   </div>
 </section>
 

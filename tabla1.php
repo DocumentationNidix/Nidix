@@ -45,11 +45,7 @@
 </header>
 
 <section>
-  <div class="container">
-    <div class="ham_cont_sec_10_link text-center">
-      </div>
-    <div class="row ham_cont_sec_12">
-      <table border="1" class="text-center">
+  <div class="tablaproyectos">
     <tr>
       <td>Fecha</td>
       <td>Titulo</td>
@@ -71,8 +67,6 @@
   <?php 
   }
    ?>
-  </table>
-    </div>
   </div>
 </section>
 

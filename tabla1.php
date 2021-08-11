@@ -54,8 +54,7 @@
       <td>Fecha</td>
       <td>Titulo</td>
       <td>Descripcion</td>
-      <td>Ubicacion</td>
-      <td></td> 
+      <td>          </td> 
     </tr>
 
     <?php 
@@ -78,7 +77,7 @@
   </div>
 </section>
 
-<footer class="ham_cont_footer">
+<footer class="ham_cont_footer fixed-">
   <div>
     <p class="text-center">&copy; 2020 <a href="#" class="text-white">Ham-School</a>. All Rights Reserved.<a class="text-white"></a></p>
   </div>

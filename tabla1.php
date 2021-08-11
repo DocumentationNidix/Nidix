@@ -46,7 +46,7 @@
 
 <section>
   <div class="container">
-      <table border="1" class="text-center">
+      <table border="1" class="text-center tablaproyectos">
     <tr>
       <td>Fecha</td>
       <td>Titulo</td>

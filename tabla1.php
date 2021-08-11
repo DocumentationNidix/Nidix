@@ -36,7 +36,7 @@
       
     </ul>
     <form class="form-inline my-2 my-lg-0">
-                <button class="btn btn-warning my-2 my-sm-0" href="inicio.html">Página Principal</button>
+                <a class="btn btn-warning my-2 my-sm-0" href="inicio.html">Página Principal</a>
 
                 <button class="btn btn-danger my-2 my-sm-0" href="../index.html">Cerrar Sesion</button>
     </form>
@@ -46,7 +46,10 @@
 
 <section>
   <div class="container">
-      <table border="1" >
+    <div class="ham_cont_sec_10_link text-center">
+      </div>
+    <div class="row ham_cont_sec_12">
+      <table border="1" class="text-center">
     <tr>
       <td>Fecha</td>
       <td>Titulo</td>
@@ -71,6 +74,7 @@
   }
    ?>
   </table>
+    </div>
   </div>
 </section>
 

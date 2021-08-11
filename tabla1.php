@@ -46,7 +46,6 @@
 
 <section>
   <div class="container">
-    <div class="row ham_cont_sec_12">
       <table border="1" >
     <tr>
       <td>Fecha</td>
@@ -72,7 +71,6 @@
   }
    ?>
   </table>
-    </div>
   </div>
 </section>
 

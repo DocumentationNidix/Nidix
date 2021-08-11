@@ -54,7 +54,6 @@
       <td>Fecha</td>
       <td>Titulo</td>
       <td>Descripcion</td>
-      <td>          </td> 
     </tr>
 
     <?php 

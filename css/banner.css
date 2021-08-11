@@ -10,16 +10,19 @@
 .ham_sombra{
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 44%;
 	-ms-transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	padding: 20px;
+	padding-top: 100px;
 	width: 80%;
+	height: 50%;
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.8);
 	color: #fff;
 	margin: auto;
+	align-content: center;
 }
 
 .ham_sombra hr{
@@ -114,4 +117,9 @@
 
 .tabla{
 	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+    display: block;
 }

@@ -31,7 +31,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-         <button class="btn btn-success my-2 my-sm-0" href="Nidix/registro.html">Proyecto Nuevo</button>
+         <button class="btn btn-success my-2 my-sm-0" href="registro.php">Proyecto Nuevo</button>
       </li>
       
     </ul>

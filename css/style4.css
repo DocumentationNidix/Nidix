@@ -13,7 +13,7 @@ body{
 
 }
 .form-register{
-	width: 95%;
+	width: 100%;
 	max-width: 500px;
 	background: lightgray;
 	padding: 20px;
@@ -26,12 +26,18 @@ body{
 
 }
 .form__label{
-	width: 30%;
+	width: 40%;
 }
 .form__input{
 	width: 701%;
 	padding: 10px;
 	font-size: 1em;
+
+}
+.form__file{
+	font-size: 1em;
+	margin: 10px;
+	width: 100%;
 
 }
 .container--flex{

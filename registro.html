@@ -42,7 +42,7 @@
 </nav>
 </header>
 	<form action="insertar.php" class="form-register" method="post" enctype="multiopart/form-data">
-		<h1 class="form__title"> Introducir Informe</h1>
+		<h1 class="form__title"> Introducir Nuevo Proyecto</h1>
 		
 		<div class="container--flex">
 			<label for="" class="form__label"> Titulo </label>
@@ -56,7 +56,9 @@
 			<label for="" class="form__label"> Fecha </label>
 			<input type="date" class="form_input" name="fecha">
 		</div>
-		<input type="submit">
+		<input type="file" name="archivo" class="form__file" required >
+		
+		<input type="submit" class="form__submit">
 
 	</form>
 

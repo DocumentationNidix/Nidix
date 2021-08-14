@@ -1,5 +1,5 @@
 <?php
-$conexion =  mysql_connect("localhost","miusuario","mipassword","test");
+$conexion =  mysqli_connect("localhost","miusuario","mipassword","test");
 
 $titulo = $_POST['titulo'];
 $descripcion = $_POST['descripcion'];
